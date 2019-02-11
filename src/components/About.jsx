@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Rainbox from './hoc/Rainbow';
 
 const About = () => {
   return (
@@ -9,4 +10,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default Rainbox(About);
